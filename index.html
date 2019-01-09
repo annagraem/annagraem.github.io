@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8" >
+	<meta name="viewport" content="width=device-width" />
+	<link rel="icon" type="image/png" href="assets/favicon.png" />
+	<title>Anya</title>
+	<link rel="stylesheet" href="styles.css" />
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,500|Roboto+Condensed' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<div id="content">
+		<h1><img src="assets/hana.png" alt="Anya"/></h1>
+		<p id="my_accounts">
+			<a class="link" href="https://twitter.com/adorateurdeloli" target="_blank">Twitter</a>
+			<a class="link" href="https://github.com/annagraem" target="_blank">GitHub</a>
+			<a class="link" href="https://www.youtube.com/channel/UCsIfOHp4GBKHFaLyk0YHbRw" target="_blank">Youtube</a>
+			<a class="link fb" href="#iddiscord">Discord</a>
+			<a class="link" href="http://myanimelist.net/profile/OkamiShiranui" target="_blank">MyAnimeList</a>
+			<a class="link" href="http://steamcommunity.com/profiles/76561198025239295/" target="_blank">Steam</a>
+			<a class="link" href="http://osu.ppy.sh/u/2460336" target="_blank">osu!</a>
+		</p>
+	</div>
+
+	<!-- fancybox content -->
+	<div style="display: none">
+		<div id="iddiscord">
+			<p>Discord ID : <br class="small" />Anya#0089</p>
+		</div>
+	</div>
+	
+	<!-- fancyBox initialisation -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.css" />
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.6/dist/jquery.fancybox.min.js"></script>
+	<script type="text/javascript">
+		$(".fb").fancybox({	'touch' : false	});
+	</script>
+</body>
+</html>
