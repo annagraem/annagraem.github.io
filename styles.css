@@ -1,6 +1,6 @@
 body {
     margin : 0;
-    background: linear-gradient(130deg, #f5b3ec, #fff, #a5e2ee) fixed;
+    background: linear-gradient(130deg, #f5b3ec, #fff, #a5e2ee) fixed no-repeat;
     /*background: linear-gradient(130deg, #eac8e5, #fff, #bde8f1) fixed;*/
     font-family: 'Roboto Condensed', sans-serif;
     text-align : center;
