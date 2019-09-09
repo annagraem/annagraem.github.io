@@ -1,10 +1,9 @@
 body {
-    margin : 0;
-    background: linear-gradient(130deg, #f5b3ec, #fff, #a5e2ee) fixed no-repeat;
-    /*background: linear-gradient(130deg, #eac8e5, #fff, #bde8f1) fixed;*/
-    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom right, #f5b3ec, #fff, #a5e2ee) fixed;
+    font-family: 'Patrick Hand', sans-serif;
     text-align : center;
-    color : #ce8ae2;
+    color: #ce8ae2;
 }
 #content {
     height: 260px;
@@ -18,26 +17,24 @@ body {
 
 h1 img {
     width: 400px;
-    margin-bottom : 20px;
-}
-p {
-    font-size : 1.1em;
+    margin-bottom: 20px;
 }
 
-.link {
-    color : #a558b8;
-    color : #ce8ae2;
-    font-family: 'Roboto Condensed', sans-serif;
-    text-decoration : none;
-    transition : all 0.5s;
-    font-size : 1.1em;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding : 5px;
+a, #iddiscord {
+    font-size: 1.5em;
 }
-.link:hover {
-    background-color : #ce8ae2;
-    color : white;
+
+a {
+    color: #ce8ae2;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin: .2em 0;
+    padding: .2em .5em;
+    border-radius: 0.5em;
+}
+a:hover {
+    background-color: #ce8ae2;
+    color: #fff;
 }
 
 .fancybox-bg {
@@ -53,15 +50,16 @@ p {
     text-shadow: none;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 660px) {
     #content {
         margin: auto;
-        margin-top : 15vh;
+        margin-top: 15vh;
         position: unset;
     }
-    .link {
-        display : block;
-        padding : 9px 0 9px 0;
+    a {
+        display: block;
+        margin: .3em 1em;
+        padding: .3em .5em;
     }
     h1 img {
         width: 300px;
@@ -69,6 +67,6 @@ p {
 }
 @media screen and (min-width: 640px) {
     .small {
-        display : none;
+        display: none;
     }
 }
